@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* 文字コードの指定 */
+/* 変数定義
+-------------------------------------- */
+/* extend用
+-------------------------------------- */
+.text-center, body {
+  text-align: center; }
+
+/* 共通兼モバイル部分
+-------------------------------------- */
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  letter-spacing: .1em;
+  color: #fff;
+  background-color: #fff; }
+
+header {
+  background-image: url("../images/EFL92_kuritomomiji_TP_V.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+h1 {
+  margin: 40px 0px;
+  font-weight: bold;
+  font-size: 1.6em; }
+
+.container {
+  width: 100%;
+  margin: 0px 0px 50px 0px; }
+
+.box {
+  width: 90%;
+  margin: 10px auto;
+  background-color: #182859; }
+  .box .title {
+    color: #fff;
+    background-color: #4F3A25; }
+
+.bottom {
+  background-color: #182859;
+  padding: 30px 0px; }
+  .bottom h3 {
+    margin: 10px 0px; }
+  .bottom a {
+    display: block;
+    background-color: #4F3A25;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 5px;
+    text-decoration: none;
+    width: 90%;
+    margin: auto; }
+
+/* PC版
+-------------------------------------- */
+@media (min-width: 769px) {
+  header {
+    height: 500px; }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    -webkit-flex: 1;
+    flex: 1; }
+    .container .box {
+      margin: 0px 10px; }
+
+  .bottom a {
+    width: 30%; } }
+
+/*# sourceMappingURL=style.css.map */

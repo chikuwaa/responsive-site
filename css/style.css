@@ -30,7 +30,8 @@ header {
 h1 {
   margin: 40px 0px;
   font-weight: bold;
-  font-size: 1.6em; }
+  font-size: 1.6em;
+  color: #000000; }
 
 .container {
   width: 100%;
@@ -42,7 +43,10 @@ h1 {
   background-color: #182859; }
   .box .title {
     color: #fff;
-    background-color: #4F3A25; }
+    background-color: #4F3A25;
+    padding: 5px; }
+  .box p {
+    padding: 5px; }
 
 .bottom {
   background-color: #182859;
@@ -50,14 +54,14 @@ h1 {
   .bottom h3 {
     margin: 10px 0px; }
   .bottom a {
-    display: block;
     background-color: #4F3A25;
     color: #fff;
     border-radius: 5px;
-    padding: 0px 5px;
-    text-decoration: none;
     width: 90%;
-    margin: auto; }
+    display: block;
+    padding: 0px 5px;
+    margin: 10px auto;
+    text-decoration: none; }
 
 /* PC版
 -------------------------------------- */
